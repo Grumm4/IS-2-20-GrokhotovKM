@@ -158,6 +158,7 @@ namespace IS_2_20_GrokhotovKM
             {
                 gp.Display(listBox1);
             }
+            Console.WriteLine();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
