@@ -15,7 +15,7 @@ namespace IS_2_20_GrokhotovKM
 {
     public partial class Menu : Form
     {
-        //static string connect = "server=chuc.caseum.ru; port=33333; database=is_2_20_st8_KURS; user=st_2_20_8; password=82411770";
+        
         internal HardDisk hd;
         internal Graphic gp;
         public Menu()
