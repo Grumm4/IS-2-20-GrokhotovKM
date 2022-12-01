@@ -1,6 +1,6 @@
 ﻿namespace third
 {
-    partial class Form1
+    partial class ThirdP
     {
         /// <summary>
         /// Обязательная переменная конструктора.

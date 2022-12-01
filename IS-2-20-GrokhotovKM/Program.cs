@@ -16,7 +16,7 @@ namespace IS_2_20_GrokhotovKM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu());
+            Application.Run(new FirstP());
         }
     }
 }

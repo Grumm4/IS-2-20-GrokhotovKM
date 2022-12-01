@@ -1,6 +1,6 @@
 ﻿namespace second
 {
-    partial class Form1
+    partial class SecondP
     {
         /// <summary>
         /// Обязательная переменная конструктора.

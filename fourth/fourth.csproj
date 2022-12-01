@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{230BA985-5A4B-4C3B-A4A2-8C84ABE71E35}</ProjectGuid>
+    <ProjectGuid>{634EC986-0447-4A2C-8CD1-440EF6FE85F6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>second</RootNamespace>
-    <AssemblyName>second</AssemblyName>
+    <RootNamespace>fourth</RootNamespace>
+    <AssemblyName>fourth</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -84,16 +84,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SecondP.cs">
+    <Compile Include="FourthP.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SecondP.Designer.cs">
-      <DependentUpon>SecondP.cs</DependentUpon>
+    <Compile Include="FourthP.Designer.cs">
+      <DependentUpon>FourthP.cs</DependentUpon>
     </Compile>
+    <Compile Include="parse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="SecondP.resx">
-      <DependentUpon>SecondP.cs</DependentUpon>
+    <EmbeddedResource Include="FourthP.resx">
+      <DependentUpon>FourthP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -117,6 +118,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConnectToDB\ConnectToDB.csproj">
+      <Project>{7c81a128-25f2-4a8a-a39e-d667606a274c}</Project>
+      <Name>ConnectToDB</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

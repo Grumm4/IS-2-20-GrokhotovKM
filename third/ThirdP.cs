@@ -11,13 +11,13 @@ using System.Windows.Forms;
 
 namespace third
 {
-    public partial class Form1 : Form
+    public partial class ThirdP : Form
     {
-        public Form1()
+        public ThirdP()
         {
             InitializeComponent();
         }
-        public static string connStr = "server=chuc.caseum.ru;port=33333;user=st_2_20_8;database=is_2_20_st8_KURS;password=82411770;";
+        public static string connStr = "server=10.90.12.110;port=33333;user=st_2_20_8;database=is_2_20_st8_KURS;password=82411770;";
         MySqlConnection conn = new MySqlConnection(connStr);
         private void Form1_Load(object sender, EventArgs e)
         {

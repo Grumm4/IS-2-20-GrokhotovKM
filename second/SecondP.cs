@@ -11,14 +11,14 @@ using MySql.Data.MySqlClient;
 
 namespace second
 {
-    public partial class Form1 : Form
+    public partial class SecondP : Form
     {
         static string connect = "server=chuc.caseum.ru; port=33333; database=uchebka; user=uchebka; password=uchebka";
         private class ConnectDB
         {
             internal string ReturnConnect(string connect) => connect;
         }
-        public Form1()
+        public SecondP()
         {
             InitializeComponent();
         }

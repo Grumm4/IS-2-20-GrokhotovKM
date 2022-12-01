@@ -1,6 +1,6 @@
 ﻿namespace IS_2_20_GrokhotovKM
 {
-    partial class Menu
+    partial class FirstP
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -40,6 +40,7 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -147,11 +148,22 @@
             this.textBox8.Size = new System.Drawing.Size(159, 29);
             this.textBox8.TabIndex = 11;
             // 
-            // Menu
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(753, 416);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(159, 35);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "В меню";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // FirstP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(930, 450);
+            this.ClientSize = new System.Drawing.Size(930, 463);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
@@ -164,7 +176,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listBox1);
-            this.Name = "Menu";
+            this.Name = "FirstP";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Menu_Load);
             this.ResumeLayout(false);
@@ -186,6 +198,7 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Button button3;
     }
 }
 

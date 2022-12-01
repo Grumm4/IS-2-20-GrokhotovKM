@@ -11,14 +11,16 @@ using System.Windows.Forms;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 
+
 namespace IS_2_20_GrokhotovKM
 {
-    public partial class Menu : Form
+    public partial class FirstP : Form
     {
         
         internal HardDisk hd;
         internal Graphic gp;
-        public Menu()
+        
+        public FirstP()
         {
             InitializeComponent();
         }
@@ -193,6 +195,12 @@ namespace IS_2_20_GrokhotovKM
                 }
             }
             listBox1.Items.Clear();
+            button3.Enabled = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }
