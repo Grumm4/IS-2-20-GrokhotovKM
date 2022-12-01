@@ -37,7 +37,7 @@ namespace second
             {
                 MessageBox.Show(ex.Message);
             }
-            Application.Exit();
+            this.Hide();
             
         }
     }

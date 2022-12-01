@@ -38,57 +38,59 @@ namespace MenuForm
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(115, 270);
+            this.button1.Location = new System.Drawing.Point(11, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 55);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Exercise1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(222, 270);
+            this.button2.Location = new System.Drawing.Point(118, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(101, 55);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
+            this.button2.Text = "Exercise2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(329, 270);
+            this.button3.Location = new System.Drawing.Point(225, 12);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(101, 55);
             this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
+            this.button3.Text = "Exercise3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(436, 270);
+            this.button4.Location = new System.Drawing.Point(332, 12);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(101, 55);
             this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
+            this.button4.Text = "Exercise4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(543, 270);
+            this.button5.Location = new System.Drawing.Point(439, 12);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(101, 55);
             this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
+            this.button5.Text = "Exercise5";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(553, 78);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);

@@ -135,6 +135,15 @@ namespace IS_2_20_GrokhotovKM
         private void Menu_Load(object sender, EventArgs e)
         {
             Block();
+            toolTip1.SetToolTip(textBox1, "Цена");
+            toolTip1.SetToolTip(textBox2, "Год выпуска");
+            toolTip1.SetToolTip(textBox3, "Количество оборотов");
+            toolTip1.SetToolTip(textBox4, "Интерфейс");
+            toolTip1.SetToolTip(textBox5, "Объём");
+            toolTip1.SetToolTip(textBox6, "Частота GPU");
+            toolTip1.SetToolTip(textBox7, "Производитель");
+            toolTip1.SetToolTip(textBox8, "Объём памяти");
+
         }
         
         private void button1_Click(object sender, EventArgs e)
@@ -154,11 +163,13 @@ namespace IS_2_20_GrokhotovKM
         {
             if (comboBox1.Text == "Жёсткий диск")
             {
-                hd.Display(listBox1);
+                try { hd.Display(listBox1); }
+                catch(Exception ex) { MessageBox.Show(ex.Message); }
             }
             else if (comboBox1.Text == "Видеокарта")
             {
-                gp.Display(listBox1);
+                try { gp.Display(listBox1); }
+                catch (Exception ex) { MessageBox.Show(ex.Message); }
             }
             Console.WriteLine();
         }
@@ -195,7 +206,7 @@ namespace IS_2_20_GrokhotovKM
                 }
             }
             listBox1.Items.Clear();
-            button3.Enabled = true;
+            //button3.Enabled = true;
         }
 
         private void button3_Click(object sender, EventArgs e)

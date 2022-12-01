@@ -7,19 +7,19 @@ using MySql.Data.MySqlClient;
 
 namespace ConnectToDB
 {
-    public class Class1
+    public class Connect
     {
-        protected string _connStr;
+        protected static string _connStr;
 
 
-        public Class1(string connectStr)
+        public Connect(string connectStr)
         {
             _connStr = connectStr;
         }
 
-        public string GetStr()
+        public static string GetStr()
         {
-            return this._connStr;
+            return _connStr;
         }
         
         

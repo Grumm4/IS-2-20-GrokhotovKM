@@ -8,54 +8,49 @@ namespace fourth
 {
     class parse
     {
-        public static class DateParser
+        public static string GetMonth(string month)
         {
 
-
-            public static string GetMonth(string month)
+            switch (month)
             {
+                case "01":
+                    return "января";
+                case "02":
+                    return "февраля";
+                case "03":
+                    return "марта";
+                case "04":
+                    return "апреля";
+                case "05":
+                    return "мая";
+                case "06":
+                    return "июня";
+                case "07":
+                    return "июля";
+                case "08":
+                    return "августа";
+                case "09":
+                    return "сентября";
+                case "10":
+                    return "октября";
+                case "11":
+                    return "ноября";
+                case "12":
+                    return "декабря";
+                default: return "";
 
-                switch (month)
-                {
-                    case "01":
-                        return "Января";
-                    case "02":
-                        return "Февраля";
-                    case "03":
-                        return "Марта";
-                    case "04":
-                        return "Апреля";
-                    case "05":
-                        return "Мая";
-                    case "06":
-                        return "Июня";
-                    case "07":
-                        return "Июля";
-                    case "08":
-                        return "Августа";
-                    case "09":
-                        return "Сентября";
-                    case "10":
-                        return "Октября";
-                    case "11":
-                        return "Ноября";
-                    case "12":
-                        return "Декабря";
-                    default:return "";
-
-                }
             }
-            public static string Parser(string s)
-            {
-                string[] dateParts = s.Substring(0, 10).Split('.');
+        }
+        public static string Parser(string s)
+        {
+            string[] dateParts = s.Substring(0, 10).Split('.');
 
 
-                string day = dateParts[0];
-                string month = GetMonth(dateParts[1]);
-                string year = dateParts[2];
+            string day = dateParts[0];
+            string month = GetMonth(dateParts[1]);
+            string year = dateParts[2];
 
-                return $"{day} {month} {year} г.";
-            }
+            return $"{day} {month} {year} г.";
         }
     }
 }

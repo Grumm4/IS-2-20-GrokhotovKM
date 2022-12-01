@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31321.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "first", "IS-2-20-GrokhotovKM\first.csproj", "{87222312-F519-4AC4-A306-9CE7D8D8D14D}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fourth", "fourth\fourth.csproj", "{634EC986-0447-4A2C-8CD1-440EF6FE85F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectToDB", "ConnectToDB\ConnectToDB.csproj", "{7C81A128-25F2-4A8A-A39E-D667606A274C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fiveth", "fiveth\fiveth.csproj", "{2D5F8B69-200B-4A35-A1C2-650B87378808}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7C81A128-25F2-4A8A-A39E-D667606A274C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C81A128-25F2-4A8A-A39E-D667606A274C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C81A128-25F2-4A8A-A39E-D667606A274C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D5F8B69-200B-4A35-A1C2-650B87378808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D5F8B69-200B-4A35-A1C2-650B87378808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D5F8B69-200B-4A35-A1C2-650B87378808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D5F8B69-200B-4A35-A1C2-650B87378808}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

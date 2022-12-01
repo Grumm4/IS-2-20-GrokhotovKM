@@ -80,6 +80,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\fiveth\fiveth.csproj">
+      <Project>{2d5f8b69-200b-4a35-a1c2-650b87378808}</Project>
+      <Name>fiveth</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\fourth\fourth.csproj">
+      <Project>{634ec986-0447-4a2c-8cd1-440ef6fe85f6}</Project>
+      <Name>fourth</Name>
+    </ProjectReference>
     <ProjectReference Include="..\IS-2-20-GrokhotovKM\first.csproj">
       <Project>{87222312-f519-4ac4-a306-9ce7d8d8d14d}</Project>
       <Name>first</Name>
